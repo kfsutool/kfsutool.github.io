@@ -2,6 +2,8 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
+    <!-- Asset paths are relative ("./assets"), so the page must be at its folder URL: /portal -> /portal/. -->
+    <script>if (!location.pathname.endsWith('/') && !/\.html?$/.test(location.pathname)) location.replace(location.pathname + '/' + location.search + location.hash);</script>
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
     <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
@@ -22,8 +24,8 @@
             document.documentElement.classList.toggle('dark', dark);
         })();
     </script>
-  <script type="module" crossorigin src="./assets/index-D4dWNCjK.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BnVwiT8v.css">
+  <script type="module" crossorigin src="./assets/index-BS9F-ABZ.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-BaVot-Tf.css">
 </head>
 <body class="bg-slate-50 text-slate-900 antialiased dark:bg-zinc-950 dark:text-zinc-100">
     <div id="app"></div>
