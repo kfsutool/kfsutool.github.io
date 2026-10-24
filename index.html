@@ -1,34 +1,19 @@
 <!doctype html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <!-- Asset paths are relative ("./assets"), so the page must be at its folder URL: /portal -> /portal/. -->
-    <script>if (!location.pathname.endsWith('/') && !/\.html?$/.test(location.pathname)) location.replace(location.pathname + '/' + location.search + location.hash);</script>
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <meta name="theme-color" content="#f8fafc" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#09090b" media="(prefers-color-scheme: dark)">
-    <meta name="mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-capable" content="yes">
-    <meta name="apple-mobile-web-app-title" content="KFSU PMT">
-    <meta name="apple-mobile-web-app-status-bar-style" content="default">
-    <link rel="manifest" href="./manifest.webmanifest">
-    <link rel="apple-touch-icon" href="./icons/apple-touch-icon.png">
-    <meta name="robots" content="noindex, nofollow">
-    <title>KFSU Portfolio Monitoring Tool</title>
-    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b3a6b'/%3E%3Ctext x='16' y='21' font-family='Arial' font-weight='700' font-size='12' text-anchor='middle' fill='white'%3EKF%3C/text%3E%3C/svg%3E">
-    <script>
-        (function () {
-            var t = null;
-            try { t = localStorage.getItem('theme'); } catch (e) {}
-            var dark = t === 'dark' || ((t === null || t === 'system') && matchMedia('(prefers-color-scheme: dark)').matches);
-            document.documentElement.classList.toggle('dark', dark);
-        })();
-    </script>
-  <script type="module" crossorigin src="./assets/index-Bt0QuH4q.js"></script>
-  <link rel="stylesheet" crossorigin href="./assets/index-BNU5uJ9y.css">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>KFSU PMT has moved</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="https://kfsutool.alwaysdata.net/portal/">
+<meta http-equiv="refresh" content="0; url=https://kfsutool.alwaysdata.net/portal/">
+<script>
+  // Keep the path, query and #/route so old bookmarks land on the same page.
+  location.replace('https://kfsutool.alwaysdata.net/portal/' + location.pathname.replace(/^\/+/, '') + location.search + location.hash);
+</script>
+<style>body{font:16px/1.5 system-ui,sans-serif;margin:3rem 1rem;text-align:center;color:#1f2937;background:#fff}@media (prefers-color-scheme:dark){body{color:#e5e7eb;background:#111827}a{color:#93c5fd}}</style>
 </head>
-<body class="bg-slate-50 text-slate-900 antialiased dark:bg-zinc-950 dark:text-zinc-100">
-    <div id="app"></div>
-    <noscript>This application needs JavaScript.</noscript>
+<body>
+<p>The KFSU Project Monitoring Tool has moved to <a href="https://kfsutool.alwaysdata.net/portal/">kfsutool.alwaysdata.net/portal</a>.</p>
 </body>
 </html>
